@@ -1,5 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+    pygments.lexers.bdd
+    ~~~~~~~~~~~~~~~~~~~~~
+
+    Lexer for BDD features and stories.
+
+    :copyright: Copyright 2006-2014 by the Pygments team, see AUTHORS.
+    :license: BSD, see LICENSE for details.
+"""
+
 from pygments.lexer import RegexLexer, bygroups
 from pygments.token import *
+
+__all__ = ['BDDLexer']
 
 class BDDLexer(RegexLexer):
     """

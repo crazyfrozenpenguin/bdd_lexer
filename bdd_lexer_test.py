@@ -4,7 +4,7 @@ from pygments.lexers import PythonLexer
 from pygments.lexers import get_lexer_by_name
 from pygments.formatters import HtmlFormatter
 
-from bddlexer import BDDLexer
+from bdd import BDDLexer
 
 print '<head><style>'
 print HtmlFormatter().get_style_defs('.highlight')
