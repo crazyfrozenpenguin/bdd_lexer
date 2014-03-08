@@ -1,4 +1,4 @@
-bdd_lexer
+BDD Lexer
 =========
 
-A simple BDD Lexer for pygments
+A simple BDD Lexer for [pygments](http://pygments.org/)
