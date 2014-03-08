@@ -1,14 +1,14 @@
 Feature: View Quotes
 View Quotes should do something
 Meta:
-@verifies G989
+@verifies #23
 
 Scenario: Should kick user
 Scenario: Kick user
 Scenario:Kick user with no space
 Scenario:Kick user with no space Given
 Meta:
-@verifies R1231
+@verifies Bug 121
 
 Given a user is logged in
 When he posts something illegal
